@@ -21,6 +21,14 @@ Provides utilities to:
     - Search for locations
     - Add a product to a users card (requires customer authorization)
 
+## Setup
+
+This project was developed on Python 3.7.5
+
+A [requirements.txt](./requirements.txt) is provided with the projects dependencies.
+
+In addition, to use the `KrogerCustomerClient` webscraper to automatically authorize your kroger account, you must have a chrome-driver installed and on your PATH for selenium to use.
+
 ## Usage
 
 ### Set environment variables
