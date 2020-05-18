@@ -1,0 +1,145 @@
+{
+    "data": [{
+        "productId": "0001111041600",
+        "upc": "0001111041600",
+        "aisleLocations": [
+            {
+                "bayNumber": "20",
+                "description": "Dairy",
+                "number": "100",
+                "numberOfFacings": "6",
+                "sequenceNumber": "4",
+                "side": "L",
+                "shelfNumber": "4",
+                "shelfPositionInBay": "1"
+            },
+            {
+                "bayNumber": "21",
+                "description": "Dairy",
+                "number": "100",
+                "numberOfFacings": "3",
+                "sequenceNumber": "4",
+                "side": "L",
+                "shelfNumber": "4",
+                "shelfPositionInBay": "1"
+            }
+        ],
+        "brand": "Kroger",
+        "categories": [
+            "Dairy"
+        ],
+        "description": "Kroger®  2% Reduced Fat Milk",
+        "images": [
+            {
+                "perspective": "front",
+                "featured": true,
+                "sizes": [
+                    {
+                        "size": "thumbnail",
+                        "url": "https://www.kroger.com/product/images/thumbnail/front/0001111041600"
+                    },
+                    {
+                        "size": "small",
+                        "url": "https://www.kroger.com/product/images/small/front/0001111041600"
+                    },
+                    {
+                        "size": "medium",
+                        "url": "https://www.kroger.com/product/images/medium/front/0001111041600"
+                    },
+                    {
+                        "size": "large",
+                        "url": "https://www.kroger.com/product/images/large/front/0001111041600"
+                    },
+                    {
+                        "size": "xlarge",
+                        "url": "https://www.kroger.com/product/images/xlarge/front/0001111041600"
+                    }
+                ]
+            },
+            {
+                "perspective": "right",
+                "sizes": [
+                    {
+                        "size": "thumbnail",
+                        "url": "https://www.kroger.com/product/images/thumbnail/right/0001111041600"
+                    },
+                    {
+                        "size": "small",
+                        "url": "https://www.kroger.com/product/images/small/right/0001111041600"
+                    },
+                    {
+                        "size": "medium",
+                        "url": "https://www.kroger.com/product/images/medium/right/0001111041600"
+                    },
+                    {
+                        "size": "large",
+                        "url": "https://www.kroger.com/product/images/large/right/0001111041600"
+                    },
+                    {
+                        "size": "xlarge",
+                        "url": "https://www.kroger.com/product/images/xlarge/right/0001111041600"
+                    }
+                ]
+            },
+            {
+                "perspective": "left",
+                "sizes": [
+                    {
+                        "size": "thumbnail",
+                        "url": "https://www.kroger.com/product/images/thumbnail/left/0001111041600"
+                    },
+                    {
+                        "size": "small",
+                        "url": "https://www.kroger.com/product/images/small/left/0001111041600"
+                    },
+                    {
+                        "size": "medium",
+                        "url": "https://www.kroger.com/product/images/medium/left/0001111041600"
+                    },
+                    {
+                        "size": "large",
+                        "url": "https://www.kroger.com/product/images/large/left/0001111041600"
+                    },
+                    {
+                        "size": "xlarge",
+                        "url": "https://www.kroger.com/product/images/xlarge/left/0001111041600"
+                    }
+                ]
+            }
+        ],
+        "items": [
+            {
+                "itemId": "0001111041600",
+                "favorite": false,
+                "fulfillment": {
+                    "curbside": true,
+                    "delivery": true,
+                    "inStore": true,
+                    "shipToHome": false
+                },
+                "price": {
+                    "regular": 2.29,
+                    "promo": 0
+                },
+                "size": "1/2 gal",
+                "soldBy": "Unit"
+            }
+        ],
+        "itemInformation": {
+            "depth": "4.00000",
+            "height": "9.25",
+            "width": "4.00"
+        },
+        "temperature": {
+            "indicator": "Refrigerated",
+            "heatSensitive": false
+        }
+    }],
+    "meta": {
+        "pagination": {
+            "start": 1,
+            "limit": 1,
+            "total": 766
+        }
+    }
+}

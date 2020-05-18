@@ -1,0 +1,299 @@
+{
+    "data": [
+      {
+        "locationId": "02600880",
+        "chain": "KROGER",
+        "address": {
+          "addressLine1": "711 Gallatin Ave",
+          "city": "Nashville",
+          "state": "TN",
+          "zipCode": "37206",
+          "county": "DAVIDSON COUNTY"
+        },
+        "geolocation": {
+          "latitude": 36.1843151,
+          "longitude": -86.74704,
+          "latLng": "36.1843151,-86.74704"
+        },
+        "name": "Kroger - East Nashville",
+        "hours": {
+          "timezone": "America/Chicago",
+          "gmtOffset": "(UTC-06:00) Central Time (US Canada)",
+          "open24": false,
+          "monday": {
+            "open": "07:00",
+            "close": "22:00",
+            "open24": false
+          },
+          "tuesday": {
+            "open": "07:00",
+            "close": "22:00",
+            "open24": false
+          },
+          "wednesday": {
+            "open": "07:00",
+            "close": "22:00",
+            "open24": false
+          },
+          "thursday": {
+            "open": "07:00",
+            "close": "22:00",
+            "open24": false
+          },
+          "friday": {
+            "open": "07:00",
+            "close": "22:00",
+            "open24": false
+          },
+          "saturday": {
+            "open": "07:00",
+            "close": "22:00",
+            "open24": false
+          },
+          "sunday": {
+            "open": "07:00",
+            "close": "22:00",
+            "open24": false
+          }
+        },
+        "phone": "6152266880",
+        "departments": [
+          {
+            "departmentId": "99",
+            "name": "Check Cashing"
+          },
+          {
+            "departmentId": "02",
+            "name": "Bakery"
+          },
+          {
+            "departmentId": "09",
+            "name": "Pharmacy",
+            "phone": "6152270296",
+            "hours": {
+              "open24": false,
+              "monday": {
+                "open": "09:00",
+                "close": "19:00",
+                "open24": false
+              },
+              "tuesday": {
+                "open": "08:00",
+                "close": "19:00",
+                "open24": false
+              },
+              "wednesday": {
+                "open": "09:00",
+                "close": "18:30",
+                "open24": false
+              },
+              "thursday": {
+                "open": "08:00",
+                "close": "19:00",
+                "open24": false
+              },
+              "friday": {
+                "open": "09:00",
+                "close": "19:00",
+                "open24": false
+              },
+              "saturday": {
+                "open": "09:00",
+                "close": "17:00",
+                "open24": false
+              },
+              "sunday": {
+                "open": "11:00",
+                "close": "17:00",
+                "open24": false
+              }
+            }
+          },
+          {
+            "departmentId": "29",
+            "name": "Event Tickets"
+          },
+          {
+            "departmentId": "32",
+            "name": "Natural And Organics"
+          },
+          {
+            "departmentId": "44",
+            "name": "Beer"
+          },
+          {
+            "departmentId": "69",
+            "name": "Online Deli/Bakery Ordering"
+          },
+          {
+            "departmentId": "88",
+            "name": "Perishables"
+          },
+          {
+            "departmentId": "95",
+            "name": "Diesel"
+          },
+          {
+            "departmentId": "01",
+            "name": "Deli"
+          },
+          {
+            "departmentId": "21",
+            "name": "Self Checkout"
+          },
+          {
+            "departmentId": "31",
+            "name": "Coin Star"
+          },
+          {
+            "departmentId": "60",
+            "name": "Red Box"
+          },
+          {
+            "departmentId": "61",
+            "name": "Ticketmaster"
+          },
+          {
+            "departmentId": "65",
+            "name": "Money Services"
+          },
+          {
+            "departmentId": "10",
+            "name": "Gas Station",
+            "phone": "6152261972",
+            "hours": {
+              "open24": false,
+              "monday": {
+                "open": "06:00",
+                "close": "22:00",
+                "open24": false
+              },
+              "tuesday": {
+                "open": "06:00",
+                "close": "22:00",
+                "open24": false
+              },
+              "wednesday": {
+                "open": "06:00",
+                "close": "22:00",
+                "open24": false
+              },
+              "thursday": {
+                "open": "06:00",
+                "close": "22:00",
+                "open24": false
+              },
+              "friday": {
+                "open": "06:00",
+                "close": "22:00",
+                "open24": false
+              },
+              "saturday": {
+                "open": "06:00",
+                "close": "22:00",
+                "open24": false
+              },
+              "sunday": {
+                "open": "06:00",
+                "close": "22:00",
+                "open24": false
+              }
+            },
+            "address": {
+              "addressLine1": "725 Gallatin Ave.",
+              "city": "Nashville",
+              "state": "TN",
+              "zipCode": "37206"
+            },
+            "geolocation": {
+              "latitude": 36.1854248,
+              "longitude": -86.7472991,
+              "latLng": "36.1854248,-86.7472991"
+            },
+            "offsite": true
+          },
+          {
+            "departmentId": "13",
+            "name": "Cell Phone"
+          },
+          {
+            "departmentId": "23",
+            "name": "Drug & General Merchandise"
+          },
+          {
+            "departmentId": "89",
+            "name": "Western Union"
+          },
+          {
+            "departmentId": "94",
+            "name": "Pickup"
+          },
+          {
+            "departmentId": "03",
+            "name": "Cheese Counter"
+          },
+          {
+            "departmentId": "08",
+            "name": "Floral"
+          },
+          {
+            "departmentId": "16",
+            "name": "Drive-thru Pharmacy",
+            "hours": {
+              "open24": false,
+              "monday": {
+                "open": "08:00",
+                "close": "21:00",
+                "open24": false
+              },
+              "tuesday": {
+                "open": "08:00",
+                "close": "21:00",
+                "open24": false
+              },
+              "wednesday": {
+                "open": "08:00",
+                "close": "21:00",
+                "open24": false
+              },
+              "thursday": {
+                "open": "08:00",
+                "close": "21:00",
+                "open24": false
+              },
+              "friday": {
+                "open": "08:00",
+                "close": "21:00",
+                "open24": false
+              },
+              "saturday": {
+                "open": "09:00",
+                "close": "18:00",
+                "open24": false
+              },
+              "sunday": {
+                "open": "12:00",
+                "close": "18:00",
+                "open24": false
+              }
+            }
+          },
+          {
+            "departmentId": "45",
+            "name": "Wine"
+          },
+          {
+            "departmentId": "63",
+            "name": "I-wireless"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "start": 1,
+        "limit": 1,
+        "total": 1
+      }
+    }
+  }
