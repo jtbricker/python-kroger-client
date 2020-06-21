@@ -56,7 +56,7 @@ def get_customer_authorization_code(customer_username, customer_password):
     username.send_keys(customer_username)
     password = driver.find_element_by_id('password')
     password.send_keys(customer_password)
-    driver.find_element_by_id('submit').click()
+    driver.find_element_by_id('signin_button').click()
     
     # The first time you authorize, or change the scope of the authorization, there is a 2nd page 
     # where we need to click an "Authorize button".  
