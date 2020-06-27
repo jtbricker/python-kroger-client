@@ -2,13 +2,13 @@ import json
 
 import requests
 
-from auth_service import (
+from python_kroger_client.auth_service import (
     get_client_access_token,
     get_customer_access_token,
 )
-from api_params import get_mapped_params
-from models.product import Product
-from models.location import Location
+from python_kroger_client.api_params import get_mapped_params
+from python_kroger_client.models.product import Product
+from python_kroger_client.models.location import Location
 
 API_URL = 'https://api.kroger.com/v1'
 

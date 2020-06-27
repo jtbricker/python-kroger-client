@@ -1,9 +1,9 @@
-from client import (
+from python_kroger_client.client import (
     KrogerCustomerClient,
     KrogerServiceClient,
 )
 
-from config import (
+from python_kroger_client.config import (
     customer_username,
     customer_password,
     encoded_client_token,

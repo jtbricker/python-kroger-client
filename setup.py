@@ -8,4 +8,8 @@ setup(name='python_kroger_client',
       author_email='jt.bricker@gmail.com',
       license='MIT',
       packages=['python_kroger_client'],
+      install_requires=[
+          'simple_cache',
+          'selenium',
+      ],
       zip_safe=False)

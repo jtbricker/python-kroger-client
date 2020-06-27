@@ -8,7 +8,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-import config
+from .config import (
+    redirect_uri,
+    client_id,
+)
 
 API_URL = 'https://api.kroger.com/v1'
 AUTH_URL = "https://api.kroger.com/v1/connect/oauth2/authorize?client_id={client_id}&response_type=code&redirect_uri={redirect_uri}&scope=cart.basic:write product.compact"
@@ -48,7 +51,7 @@ def get_customer_authorization_code(customer_username, customer_password):
     chrome_options.add_argument("--headless")
     driver = Chrome(options=chrome_options)
 
-    url = AUTH_URL.format(client_id=config.client_id, redirect_uri=config.redirect_uri)
+    url = AUTH_URL.format(client_id=client_id, redirect_uri=redirect_uri)
 
     # Go to the authorization url, enter username and password and submit
     driver.get(url)
@@ -67,8 +70,8 @@ def get_customer_authorization_code(customer_username, customer_password):
     except:
         pass
     
-    redirect_uri = driver.current_url
+    uri = driver.current_url
 
-    # After submitting, the authorization page redirects to your apps `redirect_uri` with a query parameter
+    # After submitting, the authorization page redirects to your apps `uri` with a query parameter
     # `code`, which is the customer authorization code used to authentication the customer client.
-    return redirect_uri.split("code=")[1]
+    return uri.split("code=")[1]
