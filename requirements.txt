@@ -4,4 +4,4 @@ idna==2.9
 requests==2.23.0
 selenium==3.141.0
 simple-cache==0.35
-urllib3==1.25.9
+urllib3==1.26.5
